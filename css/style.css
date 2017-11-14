@@ -210,3 +210,9 @@ nav ul a:first-child:hover {
 .sponsorlar h5{
   font-family: 'Quicksand', sans-serif;  
 }
+
+.flip-clock-divider .flip-clock-label{
+  font-size: 1rem;
+  color: rgb(226, 224, 224);
+  
+}

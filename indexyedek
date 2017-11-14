@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <!-- <a href="#" class="brand-logo">Wie-logo?</a> -->
+      <a href="#" class="brand-logo">
+        <img src="./img/header_logo.png">
+      </a>
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a href="#">Hakkinda</a>
+        </li>
+        <li>
+          <a href="#">Konusmacilar</a>
+        </li>
+        <li>
+          <a href="#">Program</a>
+        </li>
+        <li>
+          <a href="#">Iletisim</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="container">
+      <div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/s1.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Speaker 1</span>
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
+                  markup to use effectively.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/s1.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Speaker 1</span>
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
+                  markup to use effectively.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/s1.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Speaker 1</span>
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
+                  markup to use effectively.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card">
+              <div class="card-image">
+                <img src="img/s1.jpg">
+              </div>
+              <div class="card-content">
+                <span class="card-title">Speaker 1</span>
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
+                  markup to use effectively.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+  </div>
+
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>

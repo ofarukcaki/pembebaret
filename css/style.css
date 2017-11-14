@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Noto+Sans|Ubuntu:300");
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+
+nav {
+  background-color: #702f8a;
+  /* height: 75px; */
+}
+
+nav .brand-logo {
+  margin-left: 20px;
+}
+
+nav .brand-logo img {
+  max-height: 64px;
+}
+
+nav ul a {
+  font-size: 1.2rem;
+}
+
+nav ul li:hover {
+  /* background-color: rgb(224, 153, 218); */
+  background-color: white;
+}
+nav ul a:hover {
+  color: #702f8a;
+}
+
+#parallaxOne {
+  height: 250px;
+  /* height: 40vh; */
+}
+
+.parallax-container {
+  padding: 30px;
+  z-index: 1;
+}
+
+.parallax-container p {
+  color: white;
+  font-family: "Barlow", sans-serif;
+  /* font-size: 16px;     */
+  margin-bottom: 3px;
+}
+#konusmacilar {
+  text-align: center;
+}
+
+#program {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.program {
+  background-color: #702f8a;
+  color: white;
+}
+
+#counter {
+  /* padding: 60px; */
+  /* background-color: #702f8a; */
+  color: white;
+}
+
+#counter .countdown {
+  text-align: center;
+
+  /* margin: 30px; */
+  /* font-size: 3em; */
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+
+.section {
+  padding-top: 0;
+}
+
+@media only screen and (min-width: 960px) {
+  /* .flow-text {
+    font-size: 2.8rem;
+  } */
+  #counter p {
+    font-size: 2.8rem;
+  }
+  #firH {
+    margin-left: 60px;
+    color: rgb(226, 224, 224);
+  }
+  #entry {
+    font-size: 1.4rem;
+  }
+
+}
+
+@media only screen and (min-width: 720px) {
+  /* .flow-text {
+    font-size: 2.3rem;
+  } */
+  #counter p {
+    font-size: 2.3rem;
+  }
+  #entry {
+    font-size: 1.2rem;
+  }
+  
+}
+
+@media (max-width: 700px) {
+  nav .brand-logo img {
+    max-height: 56px;
+  }
+  .your-clock{
+    zoom: 0.7;
+    -moz-transform: scale(0.7)
+  }
+
+}
+
+@media (max-width: 530px) {
+  .your-clock{
+    zoom: 0.4;
+    -moz-transform: scale(0.4)
+  }
+
+}
+
+#entry {
+  /* padding: 30px 50px 30px 50px; */
+
+  /* font-size: 1.4rem; */
+}
+#infs {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#logolar {
+  /* padding-top: 20px; */
+  display: flex;
+}
+
+#logolar div img {
+  max-height: 12vh;
+}
+#logolar > div:nth-child(1) > img{
+    margin-right: 25px;
+}
+
+#entry .flow-text {
+}
+
+#header {
+  color: #ff80ab;
+  text-align: center;
+}
+#subHeader {
+  color: rgb(228, 165, 176);
+  text-align: center;
+}
+
+.page-footer {
+  background-color: #702f8a;
+}
+.page-footer .footer-copyright {
+  background-color: #4d225f;
+}
+
+nav ul li:first-child:hover {
+  background: none;
+}
+nav ul a:first-child:hover {
+  color: none;
+}
+.program ul li{
+    text-align: center
+}
+#map{
+    text-align: center;
+    font-size: 1.2rem;
+}
+#map p{
+    margin-top: 0;
+}
+#map h4{
+    margin-bottom: 5px;;
+}
+.your-clock {
+  display: inline-block;
+  width: auto;  
+}
+#clock-wrapper {
+  text-align: center;
+}
+
+.kayit{
+  background-color: rgb(131, 56, 110);
+  height: 110px;
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  color: white;
+}
+.kayit .btn{
+  margin-top: 15px;
+}
+
+.sponsorlar{
+  text-align: center;
+}
+
+.sponsorlar h5{
+  font-family: 'Quicksand', sans-serif;  
+}

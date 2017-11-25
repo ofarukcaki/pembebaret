@@ -209,6 +209,11 @@ nav ul a:first-child:hover {
 
 .sponsorlar h5{
   font-family: 'Quicksand', sans-serif;  
+  margin-top: 70px;
+}
+
+.sponsorlar h5:nth-child(2){
+  margin-top: 20px;
 }
 
 .flip-clock-divider .flip-clock-label{
@@ -219,3 +224,15 @@ nav ul a:first-child:hover {
 #sidenav-overlay{
   z-index: 0;
 }
+
+#it-logo{
+  max-height: 65px;
+}
+#ke-logo{
+  max-height: 50px;
+}
+#pt-logo{
+  max-height: 50px;
+  margin-bottom: 30px;
+}
+
